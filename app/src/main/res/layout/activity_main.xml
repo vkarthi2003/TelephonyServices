@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/nwop"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Network Operator"
+        tools:ignore="Autofill,HardcodedText,TextFields,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/phntype"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Phone Type"
+        android:inputType="text"
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/nwiso"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Network Country ISO"
+        android:inputType="text"
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/simiso"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Sim Country ISO"
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck,TextFields" />
+
+    <EditText
+        android:id="@+id/swversion"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Device Software Version"
+        android:inputType="text"
+        tools:ignore="HardcodedText,TextContrastCheck"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Telephony Services"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
